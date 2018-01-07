@@ -1,0 +1,23 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "Typescript basics - for studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/.bin/tsc"
+  },
+  "repository": "git+https://github.com/gyukebox/typescript-basics.git",
+  "keywords": ["typescript"],
+  "author": "Byeong Gyu Choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyukebox/typescript-basics/issues"
+  },
+  "homepage": "https://github.com/gyukebox/typescript-basics#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "eslint": "^4.15.0",
+    "tslint": "^5.8.0"
+  }
+}

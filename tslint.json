@@ -1,9 +1,26 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
-    ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "max-classes-per-file": false,
+    "new-parens": true,
+    "no-any": {
+      "severity": "warning"
+    },
+    "no-arg": true,
+    "no-console": {
+      "severity": "warning"
+    },
+    "no-shadowed-variable": {
+      "severity": "warning"
+    },
+    "trailing-comma": {
+      "severity": "warning"
+    }
+  },
+  "rulesDirectory": []
 }

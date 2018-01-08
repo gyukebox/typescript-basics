@@ -1,7 +1,6 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "es6",
     "target": "es6",
     "allowJs": true,
     "jsx": "react",
@@ -9,5 +8,12 @@
     "strictFunctionTypes": true,
     "noImplicitAny": true,
     "removeComments": true,
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "hello/*"
+  ],
+  "include": [
+    "basic-from-docs/class/*"
+  ]
 }

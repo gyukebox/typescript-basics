@@ -1,7 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
+    "target": "es6", // ES5 와 ES6 을 번갈아 씀
     "allowJs": true,
     "jsx": "react",
     "strictNullChecks": true,
@@ -11,9 +11,8 @@
   },
   "exclude": [
     "node_modules",
-    "hello/*"
   ],
   "include": [
-    "basic-from-docs/class/*"
+    // 학습 중인 part 의 JS로 컴파일된 버전을 볼 때 include 에 경로를 포함!
   ]
 }

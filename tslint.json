@@ -4,6 +4,7 @@
   "jsRules": {},
   "rules": {
     "max-line-length": {
+      "severity": "warning",
       "options": [120]
     },
     "max-classes-per-file": false,

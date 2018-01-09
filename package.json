@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "./node_modules/.bin/tsc",
-    "eslint": "./node_modules/.bin/eslint --fix src/",
-    "tslint": "./node_modules/.bin/tslint --fix src/"
+    "lint": "./node_modules/.bin/tslint --fix src/"
   },
   "repository": "git+https://github.com/gyukebox/typescript-basics.git",
   "keywords": ["typescript"],
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/gyukebox/typescript-basics#readme",
   "devDependencies": {
-    "eslint": "^4.15.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   }

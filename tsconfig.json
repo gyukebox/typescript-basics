@@ -1,7 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6", // ES5 와 ES6 을 번갈아 씀
+    "target": "es5", // ES5 와 ES6 을 번갈아 씀
     "allowJs": true,
     "jsx": "react",
     "strictNullChecks": true,
@@ -13,6 +13,6 @@
     "node_modules",
   ],
   "include": [
-    "src/basic-from-docs/functions/overloads.ts"
+    "src/basic-from-docs/generics.ts"
   ]
 }

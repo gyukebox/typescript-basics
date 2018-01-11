@@ -13,6 +13,6 @@
     "node_modules",
   ],
   "include": [
-    // 학습 중인 part 의 JS로 컴파일된 버전을 볼 때 include 에 경로를 포함!
+    "src/basic-from-docs/functions/overloads.ts"
   ]
 }

@@ -1,3 +1,5 @@
+// This 는 함수가 호출된 시점을 말하게 되므로 잘못 사용하면 오류를 불러올 수 있다!
+
 interface Card {
   suit: string;
   card: number;
